@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServiceConstracts.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\servicesconstract\\serviceconstracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServiceConstracts.csproj|solutionrelative:servicesconstract\\serviceconstracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServicesConstract.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\servicesconstract\\imissionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServicesConstract.csproj|solutionrelative:servicesconstract\\imissionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServicesConstract.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\servicesconstract\\dto\\missionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServicesConstract.csproj|solutionrelative:servicesconstract\\dto\\missionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServicesConstract.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\servicesconstract\\dto\\missionaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServicesConstract.csproj|solutionrelative:servicesconstract\\dto\\missionaddrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E9DBBD-CF0C-4EBC-BBBC-CB18725D510B}|Entities\\Entities.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E9DBBD-CF0C-4EBC-BBBC-CB18725D510B}|Entities\\Entities.csproj|solutionrelative:entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7F375C5-5695-40EA-B85F-5B2CF9177AFE}|Services\\Services.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7F375C5-5695-40EA-B85F-5B2CF9177AFE}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E9DBBD-CF0C-4EBC-BBBC-CB18725D510B}|Entities\\Entities.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\entities\\enums\\statusoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E9DBBD-CF0C-4EBC-BBBC-CB18725D510B}|Entities\\Entities.csproj|solutionrelative:entities\\enums\\statusoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E9DBBD-CF0C-4EBC-BBBC-CB18725D510B}|Entities\\Entities.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9E9DBBD-CF0C-4EBC-BBBC-CB18725D510B}|Entities\\Entities.csproj|solutionrelative:entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MissionAddRequest.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\MissionAddRequest.cs",
+              "RelativeDocumentMoniker": "ServicesConstract\\DTO\\MissionAddRequest.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\MissionAddRequest.cs",
+              "RelativeToolTip": "ServicesConstract\\DTO\\MissionAddRequest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T21:38:27.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MissionResponse.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\MissionResponse.cs",
+              "RelativeDocumentMoniker": "ServicesConstract\\DTO\\MissionResponse.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\MissionResponse.cs",
+              "RelativeToolTip": "ServicesConstract\\DTO\\MissionResponse.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T21:25:48.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceConstracts.csproj",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj",
+              "RelativeDocumentMoniker": "ServicesConstract\\ServiceConstracts.csproj",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj",
+              "RelativeToolTip": "ServicesConstract\\ServiceConstracts.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-24T21:23:30.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMissionsService.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\IMissionsService.cs",
+              "RelativeDocumentMoniker": "ServicesConstract\\IMissionsService.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\IMissionsService.cs",
+              "RelativeToolTip": "ServicesConstract\\IMissionsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T21:19:04.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Class1.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Services\\Class1.cs",
+              "RelativeToolTip": "Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T21:18:35.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StatusOptions.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Enums\\StatusOptions.cs",
+              "RelativeDocumentMoniker": "Entities\\Enums\\StatusOptions.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Enums\\StatusOptions.cs",
+              "RelativeToolTip": "Entities\\Enums\\StatusOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:31:33.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entities",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Entities.csproj",
+              "RelativeDocumentMoniker": "Entities\\Entities.csproj",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Entities.csproj",
+              "RelativeToolTip": "Entities\\Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-24T19:31:06.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mission.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Mission.cs",
+              "RelativeDocumentMoniker": "Entities\\Mission.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Mission.cs",
+              "RelativeToolTip": "Entities\\Mission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:26:57.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

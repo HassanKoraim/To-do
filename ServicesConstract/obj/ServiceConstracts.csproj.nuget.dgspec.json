@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServicesConstract.csproj": {}
+    "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj": {}
   },
   "projects": {
     "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Entities.csproj": {
@@ -69,12 +69,12 @@
         }
       }
     },
-    "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServicesConstract.csproj": {
+    "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServicesConstract.csproj",
-        "projectName": "ServicesConstract",
-        "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServicesConstract.csproj",
+        "projectUniqueName": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj",
+        "projectName": "ServiceConstracts",
+        "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj",
         "packagesPath": "C:\\Users\\start\\.nuget\\packages\\",
         "outputPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\obj\\",
         "projectStyle": "PackageReference",

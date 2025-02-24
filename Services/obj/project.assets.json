@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Entities >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\start\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj",
-      "projectName": "ServiceConstracts",
-      "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\ServiceConstracts.csproj",
+      "projectUniqueName": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\start\\.nuget\\packages\\",
-      "outputPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\obj\\",
+      "outputPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,11 +38,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Entities.csproj": {
-              "projectPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

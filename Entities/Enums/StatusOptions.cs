@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Enums
 {
-    internal enum StatusOptions
+    public enum StatusOptions
     {
         NotCompleted,
         Completed
