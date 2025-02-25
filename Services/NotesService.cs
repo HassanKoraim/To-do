@@ -8,7 +8,7 @@ namespace Services
     public class NotesService : INotesService
     {
         private readonly NotesDbContext _db;
-        public NoteResponse AddMission(NoteAddRequest noteAddRequest)
+        public NoteResponse AddNote(NoteAddRequest noteAddRequest)
         {
             if(noteAddRequest == null)
                 throw new ArgumentNullException(nameof(noteAddRequest));
@@ -18,17 +18,17 @@ namespace Services
             return note.ToNoteResponse();
         }
 
-        public bool DeleteMission(int Id)
+        public bool DeleteNote(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public List<NoteResponse> GetAllMissions()
+        public List<NoteResponse> GetAllNotes()
         {
             throw new NotImplementedException();
         }
 
-        public NoteResponse UpdateMission()
+        public NoteResponse UpdateNote()
         {
             throw new NotImplementedException();
         }
