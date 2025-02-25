@@ -19,6 +19,7 @@ namespace Services
             ValidationHelper.ModelValidation(nameof(noteAddRequest));
             Note note = noteAddRequest.ToNote();
             _db.Notes.Add(note);
+            _db.SaveChanges();
             return note.ToNoteResponse();
         }
         
