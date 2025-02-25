@@ -19,5 +19,6 @@ namespace To_do.Controllers
             List<NoteResponse> notesResponse = _notesService.GetAllNotes();
             return View(notesResponse);
         }
+
     }
 }
