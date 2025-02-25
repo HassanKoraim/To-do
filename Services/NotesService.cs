@@ -24,7 +24,14 @@ namespace Services
         
         public bool DeleteNote(int? Id)
         {
-            throw new NotImplementedException();
+            if(Id == null) 
+                throw new ArgumentNullException("Please Given Id");
+            var note = _db.Notes.FirstOrDefault(x => x.Id == Id);
+            if (note == null)
+                return false;
+            _db.Notes.Remove(note);
+            _db.SaveChanges();
+            return true;
         }
 
         public List<NoteResponse> GetAllNotes()
