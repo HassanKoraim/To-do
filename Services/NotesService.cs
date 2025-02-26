@@ -1,4 +1,6 @@
 ﻿using Entities;
+using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using ServiceConstracts.DTO;
 using Services.Helpers;
 using ServicesConstract;
 using ServicesConstract.DTO;
@@ -42,9 +44,31 @@ namespace Services
             return notesResponse;
         }
 
-        public NoteResponse UpdateNote()
+        public NoteResponse GetNoteByNoteId(int? noteId)
         {
-            throw new NotImplementedException();
+            if(noteId == null)
+                throw new ArgumentNullException(nameof(noteId));
+            Note? note = _db.Notes.FirstOrDefault(temp => temp.Id == noteId);
+            if (note == null)
+                return null;
+            return note.ToNoteResponse();
+        }
+
+        public NoteResponse UpdateNote(NoteUpdateRequest? noteUpdateRequest)
+        {
+            if(noteUpdateRequest == null)
+                throw new ArgumentNullException(nameof(noteUpdateRequest));
+            ValidationHelper.ModelValidation(noteUpdateRequest);
+            Note? note = _db.Notes.FirstOrDefault(temp=> temp.Id == noteUpdateRequest.Id);
+            if (note == null)
+                throw new ArgumentException("Given Note Id not exist");
+            note.Title = noteUpdateRequest.Title;
+            note.Description = noteUpdateRequest.Description;
+            note.Status = noteUpdateRequest.Status;
+            note.DueTime = noteUpdateRequest.DueTime;
+            _db.Notes.Add(note);
+            _db.SaveChanges();
+            return note.ToNoteResponse();
         }
     }
 }

@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServiceConstracts.DTO;
 using ServicesConstract;
 using ServicesConstract.DTO;
 
 namespace To_do.Controllers
 {
-    [Controller]
+    [Route("[controller]")]
     public class NotesController : Controller
     {
         private readonly INotesService _notesService;
@@ -20,5 +21,35 @@ namespace To_do.Controllers
             return View(notesResponse);
         }
 
+        [Route("[action]")]
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [Route("[action]")]
+        [HttpPost]
+        public IActionResult Create(NoteAddRequest? noteAddRequest)
+        {
+            _notesService.AddNote(noteAddRequest);
+            return RedirectToAction("Index");
+        }
+
+        [Route("[action]")]
+        [HttpGet]
+        public IActionResult Update(int? id)
+        {
+            NoteResponse noteResponse = _notesService.GetNoteByNoteId(id);
+            return View(noteResponse);
+        }
+
+        [Route("[action]")]
+        [HttpPost]
+        public IActionResult Update(NoteUpdateRequest noteUpdateRequest)
+        {
+            _notesService.UpdateNote(noteUpdateRequest);
+            return RedirectToAction("Index", "Notes");
+        }
     }
 }

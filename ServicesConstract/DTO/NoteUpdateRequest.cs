@@ -1,9 +1,15 @@
 ﻿using Entities.Enums;
+using Entities;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Entities
+namespace ServiceConstracts.DTO
 {
-    public class Mission
+    public class NoteUpdateRequest
     {
         [Key]
         public int Id { get; set; }
@@ -15,5 +21,10 @@ namespace Entities
         public DateTime DueTime { get; set; }
         public StatusOptions Status { get; set; } = StatusOptions.NotCompleted;
 
+        public Note ToNote()
+        {
+            return new Note()
+            { Id = Id, Title = Title, Description = Description, CreatedTime = CreatedTime, DueTime = DueTime, Status = Status };
+        }
     }
 }
