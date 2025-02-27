@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\to-do\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|solutionrelative:to-do\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\to-do\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|solutionrelative:to-do\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7F375C5-5695-40EA-B85F-5B2CF9177AFE}|Services\\Services.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7F375C5-5695-40EA-B85F-5B2CF9177AFE}|Services\\Services.csproj|solutionrelative:services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\to-do\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|solutionrelative:to-do\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C31E80E0-41B8-4644-AF85-01135285D2E4}|ServicesConstract\\ServiceConstracts.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\servicesconstract\\inotesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|solutionrelative:to-do\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\to-do\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|solutionrelative:to-do\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|e:\\coding\\csharp\\aspnetcore\\big-project\\to-dosolution\\to-do\\to-do.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BDA5FD80-B947-466B-9279-2B2860777553}|To-do\\To-do.csproj|solutionrelative:to-do\\to-do.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -90,11 +90,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NoteUpdateRequest.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\NoteUpdateRequest.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\NoteUpdateRequest.cs",
@@ -102,8 +102,7 @@
               "RelativeToolTip": "ServicesConstract\\DTO\\NoteUpdateRequest.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA4wBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T21:34:27.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T21:34:27.294Z"
             },
             {
               "$type": "Document",
@@ -120,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "NotesDbContext.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\NotesDbContext.cs",
               "RelativeDocumentMoniker": "Entities\\NotesDbContext.cs",
@@ -132,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Entities.csproj",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Entities\\Entities.csproj",
               "RelativeDocumentMoniker": "Entities\\Entities.csproj",
@@ -144,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Views\\Notes\\Index.cshtml",
               "RelativeDocumentMoniker": "To-do\\Views\\Notes\\Index.cshtml",
@@ -152,12 +151,11 @@
               "RelativeToolTip": "To-do\\Views\\Notes\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T21:54:55.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:54:55.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "To-do\\Views\\Shared\\_Layout.cshtml",
@@ -165,12 +163,11 @@
               "RelativeToolTip": "To-do\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T22:03:11.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T22:03:11.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "To-do\\Views\\_ViewStart.cshtml",
@@ -178,12 +175,11 @@
               "RelativeToolTip": "To-do\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T22:05:02.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T22:05:02.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "INotesService.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\INotesService.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\INotesService.cs",
@@ -191,25 +187,45 @@
               "RelativeToolTip": "ServicesConstract\\INotesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIA5wAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T21:19:04.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T21:19:04.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NotesController.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Controllers\\NotesController.cs",
               "RelativeDocumentMoniker": "To-do\\Controllers\\NotesController.cs",
               "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Controllers\\NotesController.cs",
               "RelativeToolTip": "To-do\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wDIAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T17:36:33.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Program.cs",
+              "RelativeDocumentMoniker": "To-do\\Program.cs",
+              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Program.cs",
+              "RelativeToolTip": "To-do\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:05:39.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NoteAddRequest.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\NoteAddRequest.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\NoteAddRequest.cs",
@@ -217,8 +233,7 @@
               "RelativeToolTip": "ServicesConstract\\DTO\\NoteAddRequest.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAowBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T21:38:27.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T21:38:27.324Z"
             },
             {
               "$type": "Document",
@@ -234,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ValidationHelper.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\Services\\Helpers\\ValidationHelper.cs",
               "RelativeDocumentMoniker": "Services\\Helpers\\ValidationHelper.cs",
@@ -258,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NoteResponse.cs",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\ServicesConstract\\DTO\\NoteResponse.cs",
               "RelativeDocumentMoniker": "ServicesConstract\\DTO\\NoteResponse.cs",
@@ -282,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\appsettings.json",
               "RelativeDocumentMoniker": "To-do\\appsettings.json",
@@ -291,18 +306,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-25T22:16:38.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Program.cs",
-              "RelativeDocumentMoniker": "To-do\\Program.cs",
-              "ToolTip": "E:\\Coding\\CSharp\\AspNetCore\\Big-Project\\To-DoSolution\\To-do\\Program.cs",
-              "RelativeToolTip": "To-do\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T22:05:39.645Z"
             },
             {
               "$type": "Document",
@@ -339,14 +342,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T19:26:57.07Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

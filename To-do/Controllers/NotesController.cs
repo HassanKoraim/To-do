@@ -51,5 +51,13 @@ namespace To_do.Controllers
             _notesService.UpdateNote(noteUpdateRequest);
             return RedirectToAction("Index", "Notes");
         }
+
+        [Route("[action]")]
+        [HttpPost]
+        public IActionResult Delete(int? id)
+        {
+            _notesService.DeleteNote(id);
+            return RedirectToAction("Index");
+        }
     }
 }
