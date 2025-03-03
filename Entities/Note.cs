@@ -10,9 +10,9 @@ namespace Entities
         [Required]
         public string Title { get; set; }
         public string Description { get; set; }
-        public DateTime CreatedTime { get; set; } = DateTime.Now;
+        public DateTime CreatedTime { get; set; }
         [Required]
-        public DateTime DueTime { get; set; }
+        public DateTime? DueTime { get; set; }
         public StatusOptions Status { get; set; } = StatusOptions.NotCompleted;
 
     }

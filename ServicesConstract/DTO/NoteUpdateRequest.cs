@@ -13,11 +13,11 @@ namespace ServiceConstracts.DTO
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "The Title is Required")]
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedTime { get; set; } = DateTime.Now;
-        [Required]
+        [Required(ErrorMessage = "The Due Time is Required")]
         public DateTime DueTime { get; set; }
         public StatusOptions Status { get; set; } = StatusOptions.NotCompleted;
 

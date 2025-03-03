@@ -11,20 +11,18 @@ namespace ServicesConstract.DTO
 {
     public class NoteAddRequest
     {
-        [Key]
-        public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "The Title is Required")]
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedTime { get; set; } = DateTime.Now;
-        [Required]
-        public DateTime DueTime { get; set; }
+        [Required(ErrorMessage = "The Due Time is Required")]
+        public DateTime? DueTime { get; set; }
         public StatusOptions Status { get; set; } = StatusOptions.NotCompleted;
 
         public Note ToNote()
         {
             return new Note()
-            { Id = Id, Title = Title, Description = Description, CreatedTime = CreatedTime, DueTime = DueTime, Status = Status };
+            { Title = Title, Description = Description, CreatedTime = CreatedTime, DueTime = DueTime, Status = Status };
         }
     }
 }

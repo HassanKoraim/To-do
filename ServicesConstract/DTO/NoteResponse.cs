@@ -13,12 +13,12 @@ namespace ServicesConstract.DTO
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "The Title is Required")]
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedTime { get; set; }
-        [Required]
-        public DateTime DueTime { get; set; }
+        [Required(ErrorMessage = "The Due Time is Required")]
+        public DateTime? DueTime { get; set; }
         public StatusOptions Status { get; set; }
     }
     public static class MissionResponseExtension

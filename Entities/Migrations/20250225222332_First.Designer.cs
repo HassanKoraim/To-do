@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Entities.Migrations
 {
-    [DbContext(typeof(NotesDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250225222332_First")]
     partial class First
     {

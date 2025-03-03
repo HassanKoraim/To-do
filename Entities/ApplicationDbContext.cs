@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-    public class NotesDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public NotesDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions options) : base(options)
         {
 
         }
-        public DbSet<Note> Notes { get; set; }
+        public virtual DbSet<Note> Notes { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

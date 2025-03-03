@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceConstracts", "ServicesConstract\ServiceConstracts.csproj", "{C31E80E0-41B8-4644-AF85-01135285D2E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "To-doTests", "To-doTests\To-doTests.csproj", "{6EAF43E8-08FC-4471-9713-78161A00191B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C31E80E0-41B8-4644-AF85-01135285D2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C31E80E0-41B8-4644-AF85-01135285D2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C31E80E0-41B8-4644-AF85-01135285D2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAF43E8-08FC-4471-9713-78161A00191B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAF43E8-08FC-4471-9713-78161A00191B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAF43E8-08FC-4471-9713-78161A00191B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAF43E8-08FC-4471-9713-78161A00191B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

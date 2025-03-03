@@ -9,8 +9,8 @@ namespace Services
 {
     public class NotesService : INotesService
     {
-        private readonly NotesDbContext _db;
-        public NotesService(NotesDbContext notesDbContext)
+        private readonly ApplicationDbContext _db;
+        public NotesService(ApplicationDbContext notesDbContext)
         {
             _db = notesDbContext;
         }
@@ -18,7 +18,7 @@ namespace Services
         {
             if(noteAddRequest == null)
                 throw new ArgumentNullException(nameof(noteAddRequest));
-            ValidationHelper.ModelValidation(nameof(noteAddRequest));
+            ValidationHelper.ModelValidation(noteAddRequest);
             Note note = noteAddRequest.ToNote();
             _db.Notes.Add(note);
             _db.SaveChanges();
